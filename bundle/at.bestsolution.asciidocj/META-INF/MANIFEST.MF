@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Asciidocj
+Bundle-SymbolicName: at.bestsolution.asciidocj
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: libs/asciidoctorj-1.5.2.jar,
+ libs/jcommander-1.35.jar,
+ libs/slf4j-api-1.7.7.jar,
+ .,
+ jruby/jruby-complete-1.7.16.1.jar
+Export-Package: org.asciidoctor,
+ org.asciidoctor.ast,
+ org.asciidoctor.internal
+Import-Package: org.osgi.framework
+Bundle-Activator: at.bestsolution.asciidocj.Activator
+Bundle-ActivationPolicy: lazy

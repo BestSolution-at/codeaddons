@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Asciidoc
+Bundle-SymbolicName: at.bestsolution.code.editor.asciidoc
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.fx.code.editor.asciidoc,
+ at.bestsolution.asciidocj
+Import-Package: org.osgi.service.component.annotations
+Service-Component: OSGI-INF/services/at.bestsolution.code.editor.asciidoc.AsciiDocJConverter.xml
+Bundle-ActivationPolicy: lazy
